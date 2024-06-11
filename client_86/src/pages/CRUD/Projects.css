@@ -1,0 +1,57 @@
+.projects-container {
+    width: 800px;
+    margin: 80px auto;
+    padding: 80px;
+    background-color: #e9ecef;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .projects-container h2 {
+    text-align: center;
+  }
+  
+  .projects-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .projects-container input,
+  .projects-container textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .projects-container button {
+    padding: 10px;
+    border: none;
+    background-color: #214e7b9d;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .projects-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .projects-container li {
+    background-color: #acc0d5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .projects-container li button {
+    margin-left: 10px;
+    padding: 5px;
+    background-color:#214e7b9d;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

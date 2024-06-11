@@ -1,0 +1,32 @@
+
+  .uncard-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .uncard {
+    width: 200px; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  
+  .uncard-img {
+    width: 100%; 
+  }
+  
+  .uncard-content {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .uncard-content h3 {
+    margin-top: 0;
+  }
+  
+  .uncard-content p {
+    margin-bottom: 10px;
+  }
+  
