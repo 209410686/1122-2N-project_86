@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Logout from '../features/authentication/Logout';
+import Logout from '../authentication/Logout';
 
 const StyledHeaderMenu = styled.ul`
   display: flex;

@@ -53,7 +53,7 @@ function LoginForm() {
           </div>
           <div className="links">
             <a href="#">Forget Password</a>
-            <a href="#">Signup</a>
+            <a href="./Logout">Signup</a>
           </div>
         </form>
       </div>

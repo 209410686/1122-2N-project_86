@@ -3,12 +3,16 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { Toaster } from 'react-hot-toast';
 
+//import AppLayout from './ui/AppLayout';
+//import ProtectedRoute from './ui/ProtectedRoute';
+
 import {HomeLayout_86,HomePage_86} from './pages';
 //import {Mid1SupaBlog_86,Mid2NodeBlog_86}from './pages/mid1_86'
 import SupaGetBlog_86 from './pages/demo_xx/SupaGetBlog_86';
 import CRUD from './pages/CRUD/Projects';
 import Other from './pages/Other/Uncard';
 import Login from './pages/Login_86';
+import Logout from './pages/Account_86';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -42,10 +46,17 @@ const router =createBrowserRouter([
       {
         path :'login',
         element:<Login/>
-      }
+      },
+      {
+        path :'Logout',
+        element:<Logout/>
+      },
     ]
   }
 ])
+
+
+
 
 const App_86 = () => {
   return (
