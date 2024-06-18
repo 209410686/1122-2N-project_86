@@ -32,8 +32,8 @@ const Navbar_86 =() => {
             <div className="sub-menu-wrapper slideInUp">
               <ul className="sub-menu">
                 <li className="menu-item"><Link to='./demoGetBlog_86'>demo : SupaGetBlog_86</Link></li>
-                <li className="menu-item"><Link to='./midBlog_86'>mid1</Link></li>
-                <li className="menu-item"><Link to='./mid2Blog'>mid2</Link></li>
+                <li className="menu-item"><Link to='#'>mid1</Link></li>
+                <li className="menu-item"><Link to='#'>mid2</Link></li>
                
               </ul>
             </div>
@@ -85,6 +85,7 @@ const Navbar_86 =() => {
               </div>
             </div>
           </li>
+          <li className="menu-item"><Link to="./login">Login</Link></li>
         </ul>
         <Link to="#"
           id="hamburger-icon"

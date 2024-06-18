@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { supabase } from '../../db/clientSupabase';
+import supabase, { supabaseUrl } from '../../db/clientSupabase';
 import './Projects.css';
 
 const Projects = () => {
@@ -45,7 +45,6 @@ const Projects = () => {
     setIsEditing(true);
     setCurrentProject(project);
   };
-
   const handleDelete = async (id) => {
     await supabase.from('projects').delete().eq('id', id);
     fetchProjects();

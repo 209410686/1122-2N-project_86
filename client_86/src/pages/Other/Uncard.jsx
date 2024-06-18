@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import supabase from '../../db/clientSupabase';
+import supabase, { supabaseUrl } from '../../db/clientSupabase';
 import './Uncards.css';
 
 const Uncards = () => {

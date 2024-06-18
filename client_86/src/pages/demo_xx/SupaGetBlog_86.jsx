@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 // let api_url = `http://localhost:5000/api/card_xx`;
 
-import { supabase } from '../../db/clientSupabase';
+import supabase, { supabaseUrl } from '../../db/clientSupabase';
 
 import Wrapper from '../../assets/wrappers/BlogPage_xx';
 
